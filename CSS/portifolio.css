@@ -1,0 +1,64 @@
+:root {
+    --fonte:"Inter";
+}
+
+html {
+    background-image: url(../background-2.jpg);
+    color: white;
+}
+
+nav {
+    margin-top: 10%; 
+}
+
+.voltar {
+   
+    background-color: rgb(195, 194, 194);
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.voltar:hover {
+    
+    background-color: blueviolet;
+    color: white;
+    text-decoration:underline;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+article {
+    text-align: center;
+}
+
+article h1 {
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+article ul li {
+    margin:5% 0px;
+}
+
+article ul li h2 {
+    font-size: 30px;
+    padding: 2%;
+}
+
+article ul li p {
+    padding: 2%;
+}
+
+article ul li img {
+    padding: 2%;
+}
+
+
+.imagens {
+    width: 80%;
+    height: 80%;
+}

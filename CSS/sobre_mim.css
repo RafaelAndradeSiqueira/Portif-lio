@@ -1,0 +1,71 @@
+:root {
+    --fonte:'Inter'
+   }
+
+html{
+    background-image: url(../background-2.jpg);
+    color: white;
+    font-family: var(--fonte);
+}
+
+nav {
+    margin-top: 10%; 
+}
+
+.voltar {
+   
+    background-color: rgb(195, 194, 194);
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.voltar:hover {
+    
+    background-color: blueviolet;
+    color: white;
+    text-decoration:underline;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+article {
+    margin-top: 10%;
+    text-align: center;
+    padding: 8%;
+    font-size: 22px;
+}
+
+article h1 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: center;
+    align-items: center;
+    text-align: justify;
+    
+}
+
+.ultimo_p {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.lista {
+    margin-top: 8%;
+}
+
+ul li {
+    margin: 15px 15px;
+}
+
+ul li i {
+    margin-right: 5px;
+}
