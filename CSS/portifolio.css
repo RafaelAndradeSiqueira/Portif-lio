@@ -3,7 +3,7 @@
 }
 
 html {
-    background-image: url(../background-2.jpg);
+    background-image: url(../background-3.jpg);
     color: white;
 }
 
@@ -61,4 +61,41 @@ article ul li img {
 .imagens {
     width: 80%;
     height: 80%;
+}
+
+@media (min-width: 1400px) {
+    nav {
+        margin-top: 2%; 
+    }
+
+    article h1 {
+        font-size: 80px;
+        margin-top: 5%;
+    }
+
+    article ul li h2 {
+        margin-top: 80px;
+        font-size: 50px;
+        padding: 0;
+    }
+
+    article ul li  {
+        margin: 0px 0px;
+        
+    }
+
+    article ul li p {
+        padding: 1%;
+        font-size: 25px;
+    }
+
+    article ul li img {
+        max-width: 50%;
+        max-height: 10%;
+    }
+
+    .especial {
+        height: 550px;
+        width: 400px;
+    }
 }

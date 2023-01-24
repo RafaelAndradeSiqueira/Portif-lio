@@ -95,3 +95,68 @@ p {
     text-decoration:underline;
     font-size: 20px;
 }
+
+
+ @media (min-width: 1400px) {
+
+
+    .Imagem {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 1%;
+    }
+
+    p {
+        color:white;
+        text-decoration: underline;
+        font-size: 18px;
+    }
+
+    .links {
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topicos {
+        margin: 10%;
+        text-decoration: none;
+        color: black;
+        padding: 15px;
+        width: 90%;
+        background-color: rgb(195, 194, 194);
+        border-radius: 20px;
+        font-size: 20px;
+    }
+
+    .topicos:hover {
+        background-color: blueviolet;
+        color: white;
+        text-decoration:underline;
+        font-size: 24px;
+    }
+
+    .logos {
+        display: flex;
+        margin-top: 2%;
+        
+    }
+
+    .logos__logos {
+        background-color: rgb(195, 194, 194);
+        border-radius: 20px;
+        text-decoration: none;
+        color: black;
+        padding: 15px;
+        margin: 0 5px;
+        font-size: 20px;
+    }
+
+    .logos__logos:hover{
+        background-color: blueviolet;
+        color: white;
+        text-decoration:underline;
+        font-size: 24px;
+    }
+}
